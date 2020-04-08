@@ -1,22 +1,11 @@
-Project: foxes-and-rabbits-v2
-Authors: Michael Kölling and David J. Barnes
+------------------------------------------------------------------------
+This is the project README file. Here, you should describe your project.
+Tell the reader (someone who does not know anything about this project)
+all he/she needs to know. The comments should usually include at least:
+------------------------------------------------------------------------
 
-This project is part of the material for chapter 10 of the book
-
-   Objects First with Java - A Practical Introduction using BlueJ
-   Sixth edition
-   David J. Barnes and Michael Kölling
-   Pearson Education, 2016
-
-A predator-prey simulation involving foxes and rabbits in
-an enclosed rectangular field.
-
-This is the first version of the simulation. This version
-does not use inheritance.
-
-How to start:
-    Create a Simulator object.
-    Then call one of:
-        + simulateOneStep - for a single step.
-        + simulate - and supply a number (say 10) for that many steps.
-        + runLongSimulation - for a simulation of 500 steps.
+PROJECT TITLE: Abstract Classes and Interfaces
+PURPOSE OF PROJECT: The purpose of this project is to learn how to use Abstract Classes and Interfaces.
+VERSION or DATE: 2020/04/07
+AUTHORS: Monishkumar Sivakumar
+USER INSTRUCTIONS: Open these files up using BlueJ. Create a Simulator Object and then test out the methods in the class.
