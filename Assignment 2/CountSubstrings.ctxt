@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=CountSubstrings
+comment0.text=\r\n\ This\ program\ will\ ask\ the\ user\ for\ a\ file\ name.\ If\ the\ user\ inputs\ a\ \r\n\ wrong\ file\ name,\ the\ program\ will\ catch\ it,\ but\ if\ they\ enter\ a\ correct\r\n\ one,\ then\ the\ code\ will\ go\ on.\ It\ will\ ask\ the\ user\ for\ a\ word\r\n\ to\ search\ for\ in\ the\ file,\ and\ the\ program\ will\ find\ the\ amount\r\n\ of\ times\ it\ appears\ and\ the\ time\ it\ took\ to\ look\ for\ it.\r\n\r\n\ @Monishkumar\ Sivakumar\r\n\ @2020/02/16\r\n
+comment1.params=
+comment1.target=CountSubstrings()
+comment2.params=
+comment2.target=void\ userInput()
+comment3.params=fName
+comment3.target=void\ checkFile(java.lang.String)
+comment3.text=this\ method\ will\ check\ if\ the\ file\ name\ exists
+comment4.params=text\ pattern
+comment4.target=int\ findBrute(java.util.List,\ java.util.List)
+comment4.text=Returns\ the\ lowest\ index\ at\ which\ substring\ pattern\ begins\ in\ text\ (or\ else\ -1).
+numComments=5
