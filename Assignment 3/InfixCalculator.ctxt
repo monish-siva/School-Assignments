@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=InfixCalculator
+comment1.params=input
+comment1.target=InfixCalculator(java.lang.String)
+comment2.params=c
+comment2.target=int\ operation(char)
+comment3.params=postFixList
+comment3.target=int\ getPostFix(java.util.List)
+comment4.params=s
+comment4.target=java.util.List\ convertPostFix(java.lang.String)
+comment4.text=\r\n\ \ \ \ \tpublic\ char\ getPostfix()\ {\r\n\t\tStackListBased\ r\ \=\ new\ StackListBased();\r\n\t\tString[]\ postFixArr\ \=\ postFix.trim().split("\\\\s+");\r\n\t\tr.createStack();\r\n\t\t\r\n\t\tfor(int\ i\ \=\ 0;\ i\ <\ postFix.length();\ i++)\ {\r\n\t\t\tchar\ x\ \=\ postFix.charAt(i);\ \r\n\t\t\t\r\n\t\t\tif(Character.isDigit(x))\ {\r\n\t\t\t\t\r\n\t\t\t\tif(i+1\ >\=\ postFix.length()\ ||\ \!Character.isDigit(postFix.charAt(i+1)))\ {\r\n\t\t\t\t\tpostFix\ +\=\ '\ ';\r\n\t\t\t\t}\r\n\t\t\t\tr.push(x);\r\n\t\t\t}\ else\ {\r\n\t\t\t\tint\ a\ \=\ r.pop()\ -\ '0';\r\n\t\t\t\tint\ b\ \=\ r.pop()\ -\ '0';\r\n\t\t\t\t\r\n\t\t\t\tswitch(x)\ {\r\n\t\t\t\t\tcase\ '-'\:\r\n\t\t\t\t\t\tr.push((char)\ (b\ -\ a));\r\n\t\t\t\t\t\tbreak;\r\n\t\t\t\t\tcase\ '+'\:\r\n\t\t\t\t\t\tr.push((char)\ (a\ +\ b));\r\n\t\t\t\t\t\tbreak;\r\n\t\t\t\t\tcase\ '/'\:\r\n\t\t\t\t\t\tr.push((char)\ (b\ /\ a));\r\n\t\t\t\t\t\tbreak;\r\n\t\t\t\t\tcase\ '*'\:\r\n\t\t\t\t\t\tr.push((char)\ (a\ *\ b));\r\n\t\t\t\t\t\tbreak;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t\treturn\ (r.pop());\r\n\t\t\r\n}
+comment5.params=s
+comment5.target=void\ evaluateInfix(java.lang.String)
+numComments=6

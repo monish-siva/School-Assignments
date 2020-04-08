@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=LanguageRecognizerG
+comment0.text=\r\n\ \r\n\r\n\ Monishkumar\ Sivakumar\r\n\ 2020/03/08\r\n
+comment1.params=
+comment1.target=LanguageRecognizerG()
+comment2.params=word
+comment2.target=LanguageRecognizerG(java.lang.String)
+comment3.params=inputs
+comment3.target=boolean\ isE(char)
+comment4.params=input
+comment4.target=boolean\ isV(char)
+comment5.params=input
+comment5.target=boolean\ isVE(java.lang.String)
+comment6.params=input
+comment6.target=boolean\ isEGV(java.lang.String)
+comment7.params=input
+comment7.target=java.lang.String\ recursiveRecogG(java.lang.String)
+comment8.params=
+comment8.target=void\ recursivePrintG()
+numComments=9
